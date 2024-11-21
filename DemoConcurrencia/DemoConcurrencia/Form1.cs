@@ -86,7 +86,7 @@ namespace DemoConcurrencia
                 catch (Exception)
                 {
 
-                    ActualizarResultado("Tarea cancelada");
+                    ActualizarResultado("Tarea cancelada con exito");
                 }
             });
         }
