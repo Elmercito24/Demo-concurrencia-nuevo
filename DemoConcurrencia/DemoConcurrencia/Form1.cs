@@ -22,7 +22,7 @@ namespace DemoConcurrencia
                 Thread.Sleep(1000);//Que se demore 1 segundo
                 ActualizarResultado($"Actividad - paso {i + 1}");
             }
-            ActualizarResultado("Fin del proceso secuencial");
+            ActualizarResultado("Finalizar del proceso secuencial");
         }
         private void ActualizarResultado(string mensaje)
         {
