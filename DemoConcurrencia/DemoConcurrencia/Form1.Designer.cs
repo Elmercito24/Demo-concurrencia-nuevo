@@ -48,7 +48,7 @@
             // 
             // splitContainer1.Panel1
             // 
-            splitContainer1.Panel1.BackColor = Color.FromArgb(192, 255, 192);
+            splitContainer1.Panel1.BackColor = Color.FromArgb(224, 224, 224);
             splitContainer1.Panel1.Controls.Add(BtnCancelarHilo);
             splitContainer1.Panel1.Controls.Add(BtnIniciarTarea);
             splitContainer1.Panel1.Controls.Add(BtnIniciarHilo);
@@ -64,9 +64,9 @@
             // BtnCancelarHilo
             // 
             BtnCancelarHilo.BackColor = Color.FromArgb(255, 192, 192);
-            BtnCancelarHilo.Location = new Point(60, 357);
+            BtnCancelarHilo.Location = new Point(56, 353);
             BtnCancelarHilo.Name = "BtnCancelarHilo";
-            BtnCancelarHilo.Size = new Size(189, 35);
+            BtnCancelarHilo.Size = new Size(193, 35);
             BtnCancelarHilo.TabIndex = 3;
             BtnCancelarHilo.Text = "Cancelar  procesos";
             BtnCancelarHilo.UseVisualStyleBackColor = false;
@@ -74,10 +74,10 @@
             // 
             // BtnIniciarTarea
             // 
-            BtnIniciarTarea.BackColor = Color.FromArgb(224, 224, 224);
-            BtnIniciarTarea.Location = new Point(60, 238);
+            BtnIniciarTarea.BackColor = Color.FromArgb(128, 255, 128);
+            BtnIniciarTarea.Location = new Point(56, 237);
             BtnIniciarTarea.Name = "BtnIniciarTarea";
-            BtnIniciarTarea.Size = new Size(189, 54);
+            BtnIniciarTarea.Size = new Size(193, 54);
             BtnIniciarTarea.TabIndex = 2;
             BtnIniciarTarea.Text = "Iniciar tarea";
             BtnIniciarTarea.UseVisualStyleBackColor = false;
@@ -85,7 +85,7 @@
             // 
             // BtnIniciarHilo
             // 
-            BtnIniciarHilo.BackColor = Color.FromArgb(224, 224, 224);
+            BtnIniciarHilo.BackColor = Color.FromArgb(128, 255, 128);
             BtnIniciarHilo.Location = new Point(56, 136);
             BtnIniciarHilo.Name = "BtnIniciarHilo";
             BtnIniciarHilo.Size = new Size(193, 55);
@@ -96,8 +96,8 @@
             // 
             // btnIniciarSecuencial
             // 
-            btnIniciarSecuencial.BackColor = Color.FromArgb(224, 224, 224);
-            btnIniciarSecuencial.Location = new Point(56, 38);
+            btnIniciarSecuencial.BackColor = Color.FromArgb(128, 255, 128);
+            btnIniciarSecuencial.Location = new Point(56, 37);
             btnIniciarSecuencial.Name = "btnIniciarSecuencial";
             btnIniciarSecuencial.Size = new Size(193, 51);
             btnIniciarSecuencial.TabIndex = 0;
