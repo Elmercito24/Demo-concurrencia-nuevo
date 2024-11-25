@@ -5,12 +5,13 @@
         private static Singleton instancia = null;
         //Elemento para realizar el bloqueo
         private static readonly object bloqueo = new object();
+        public string cadenaConexion;
 
         //Constructor
         //ctor y tab
         public Singleton()
         {
-
+            cadenaConexion = "";
         }
         //Defini instancia
         public static Singleton Instance
